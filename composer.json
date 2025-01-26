@@ -14,6 +14,7 @@
             "email": "danukajihansanath0408@gmail.com"
         }
     ],
+    "prefer-stable": true,
     "require": {
         "symfony/console": "^5.0 || ^6.0 || ^7.0 || ^7.2"
     }
