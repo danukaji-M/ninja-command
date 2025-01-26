@@ -1,6 +1,7 @@
 {
     "name": "picoweb/command",
     "description": "this is the command engine for pico-php libraries",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
