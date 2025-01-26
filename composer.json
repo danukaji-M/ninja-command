@@ -1,0 +1,21 @@
+{
+    "name": "ninja/command",
+    "description": "this is the command engine for ninja-php libraries",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ninja\\": "Ninja/"
+        }
+    },
+    "authors": [
+        {
+            "name": "danukaji-hansanath",
+            "email": "danukajihansanath0408@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "symfony/console": "^5.0 || ^6.0 || ^7.0 || ^7.2"
+    }
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Ninja\Command\ModelCommand;
+
+$application = new Application();
+
+$modelCommand = new ModelCommand();
+$application->add($modelCommand);
+
+echo "Command registered: " . $modelCommand->getName() . PHP_EOL; // Debugging output
+
+$application->run();
