@@ -1,5 +1,5 @@
 <?php
-namespace Ninja\Command;
+namespace PicoWeb\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;

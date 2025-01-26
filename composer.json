@@ -1,11 +1,11 @@
 {
-    "name": "ninja/command",
-    "description": "this is the command engine for ninja-php libraries",
+    "name": "picoweb/command",
+    "description": "this is the command engine for pico-php libraries",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ninja\\": "Ninja/"
+            "PicoWeb\\": "PicoWeb/"
         }
     },
     "authors": [

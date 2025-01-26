@@ -1,6 +1,6 @@
 <?php
 
-namespace Ninja\Command;
+namespace PicoWeb\Command;
 
 class ModelGenerator
 {
@@ -18,7 +18,7 @@ namespace App\Entity;
  * Class $modelName
  * 
  * Generated on $currentDateTime
- * © $currentYear Ninja-Web Framework
+ * © $currentYear PicoWeb Framework
  */
 class $modelName
 {
